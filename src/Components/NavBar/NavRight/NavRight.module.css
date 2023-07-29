@@ -1,0 +1,20 @@
+.NavRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.vl{
+    height: 1.5rem;
+    width: 0.125rem;
+    background-color: #F3F4F6;
+}
+
+@media screen and (max-width: 790px){
+    .NavRight{
+        display: none
+    }
+    
+}
+
