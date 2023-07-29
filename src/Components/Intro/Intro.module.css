@@ -1,0 +1,6 @@
+.Intro{
+    display: flex;
+    padding: 6rem 5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}

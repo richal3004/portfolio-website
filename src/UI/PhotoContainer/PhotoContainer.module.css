@@ -1,0 +1,7 @@
+.PhotoContainer{
+    width: 17.5rem;
+    height: 20rem;
+    flex-shrink: 0;
+    border: 8px solid var(--gray-default, #FFF);
+    background: var(--gray-200, #E5E7EB);
+}
