@@ -8,6 +8,7 @@ const Intro=(props)=>{
         <IntroContent/>
         <PhotoContainer />
         <PhotoContainer />
+        <PhotoContainer />
     </div>
     )
 }
