@@ -1,14 +1,15 @@
 import IntroContent from "./IntroContent/IntroContent";
 import classes from "./Intro.module.css"
-import PhotoContainer from "../../UI/PhotoContainer/PhotoContainer";
+import ProfilePic from "../../assets/ProfilePic.jpeg";
+
 
 const Intro=(props)=>{
     return(
     <div className={classes.Intro}>
         <IntroContent/>
-        <PhotoContainer />
-        <PhotoContainer />
-        <PhotoContainer />
+        <div className={classes.PhotoContainer}>
+            <img src={ProfilePic} alt="ProfilePic"/>  
+        </div>
     </div>
     )
 }

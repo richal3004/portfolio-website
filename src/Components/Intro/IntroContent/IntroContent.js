@@ -4,13 +4,11 @@ const IntroContent=(props)=>{
     <div className={classes.IntroContent}>
         <p className={classes.TitleName}>Hello, I'm Harsh Shah</p>
         <p className={classes.TitleText}>
-        I'm a full stack developer (React.js & Node.js) 
-        with a focus on creating (and occasionally designing) 
-        exceptional digital experiences that are 
-        fast, accessible, visually appealing, and responsive. 
-        Even though I have been creating web applications for 
-        over 7 years, I still love it as if it was something new.
+        I'm recent MEng Computer Engineering graduate from Univercity of Guelph.
+        Looking for full time opporunity as a Full stack developer or Software Developer. 
+        I have 2+ years of experience as a Full Stack Developer.
         </p>
+        <p> Toronto,Canada</p>
 
     </div>
     )

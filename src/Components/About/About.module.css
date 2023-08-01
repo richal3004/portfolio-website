@@ -1,0 +1,49 @@
+.About{
+    display: flex;
+    padding: 6rem 5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: var(--gray-50, #F9FAFB);
+    gap: 5rem;
+}
+.AboutBox{
+    display: flex;
+    padding: 0rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    
+}
+.Box{
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.PhotoBox{
+    display: flex;
+    min-width: 36.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+
+.PhotoContainer{
+    width: 25rem;
+    height: 30rem;
+    border: none;
+    box-shadow: -32px 28px #E5E7EB;
+    margin-right: 6rem;
+    margin-left: 2rem;
+    
+}
+
+.PhotoContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    object-position: 0% 30%;
+}

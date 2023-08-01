@@ -4,3 +4,23 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+.p{
+    margin-left: 6rem;
+}
+
+
+.PhotoContainer{
+    width: 17.5rem;
+    height: 20rem;
+    border: none;
+    box-shadow: 32px -28px #E5E7EB;
+    margin-left: 6rem;
+    
+}
+
+.PhotoContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    object-position: 0% 30%;
+}
