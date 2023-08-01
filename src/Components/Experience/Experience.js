@@ -3,7 +3,6 @@ import TagBar from "../../UI/TagBar/TagBar";
 import classes from "./Experience.module.css";
 import ExperienceBlock from "./ExperienceBlock/ExperienceBlock";
 import logo from "../../assets/Logo.png";
-import { Fragment } from "react";
 
 const Experience = (props) => {
   const ExperienceList = [

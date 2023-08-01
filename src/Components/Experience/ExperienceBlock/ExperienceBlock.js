@@ -1,5 +1,4 @@
 import classes from "./ExperienceBlock.module.css";
-import logo from "../../../assets/Logo.png";
 import ExpContent from "./ExpContent/ExpContent";
 
 const ExperienceBlock =(props)=>{
