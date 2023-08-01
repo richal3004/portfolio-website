@@ -1,0 +1,18 @@
+.Experience {
+    display: flex;
+    padding: 6rem 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background: var(--gray-50, #F9FAFB);
+}
+.ExperienceContainer{
+    display: flex;
+padding: 0rem 2rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 3rem;
+align-self: stretch;
+}

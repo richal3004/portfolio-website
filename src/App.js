@@ -3,6 +3,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Intro from './Components/Intro/Intro.js'
 import About from './Components/About/About';
 import SkillBlock from './Components/SkillBlock/SkillBlock';
+import Experience from './Components/Experience/Experience';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Intro />
       <About />
       <SkillBlock />
+      <Experience />
     </div>
   );
 }

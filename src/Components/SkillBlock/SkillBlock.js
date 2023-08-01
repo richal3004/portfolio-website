@@ -12,7 +12,6 @@ const skillBlock =(props)=>{
       { name: "logo", url: logo },
       { name: "logo", url: logo },
       { name: "logo", url: logo },
-     
       { name: "logo", url:logo },
       { name: "logo", url:logo },
       { name: "logo", url: logo },
