@@ -43,7 +43,10 @@ const Project=(props)=>{
             <div className={classes.projectContainer}>
                 <TagBar tagText="Projects" />
                 <Subtitle subtitle="Some of the noteworthy projects I have built:" />
-                {projectList.map((project, index)=>(<ProjectBlock key={index} project={project}/>))}
+                {projectList.map((project, index)=>{
+                  if(index%2) return <ProjectBlock key={index} project={project} even={true}/> 
+                  return <ProjectBlock key={index} project={project} even={false}/>
+                  })}
             </div>
         </div>
     )
