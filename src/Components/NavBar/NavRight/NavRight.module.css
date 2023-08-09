@@ -11,10 +11,3 @@
     background-color: #F3F4F6;
 }
 
-@media screen and (max-width: 790px){
-    .NavRight{
-        display: none
-    }
-    
-}
-

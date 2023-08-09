@@ -2,6 +2,7 @@ import Navigation from "./Navigation/Navigation";
 import NavAction from "./NavAction/NavAction";
 import classes from "./NavRight.module.css";
 
+
 const NavRight=(props)=>{
     return(
         <div>
@@ -9,6 +10,7 @@ const NavRight=(props)=>{
                 <Navigation />
                 <div className={classes.vl}></div>
                 <NavAction />
+                
             </div>    
         </div>
         

@@ -5,7 +5,7 @@ import TagBar from "../../UI/TagBar/TagBar";
 
 const About=(props)=>{
     return(
-    <div className={classes.About}>
+    <div className={classes.About} id="About">
         <div className={classes.AboutBox}>
             <TagBar tagText={"About Me"}/>
             <div className={classes.Box}>

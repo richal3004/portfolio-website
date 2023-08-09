@@ -32,7 +32,7 @@ const Experience = (props) => {
       },
   ];
   return (
-    <div className={classes.Experience}>
+    <div className={classes.Experience} id="Experience">
       <div className={classes.ExperienceContainer}>
         <TagBar tagText="Experience" />
         <Subtitle subtitle="Here is a quick summary of my most recent experiences:" />
