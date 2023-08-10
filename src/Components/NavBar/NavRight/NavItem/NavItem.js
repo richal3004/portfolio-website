@@ -3,7 +3,7 @@ import classes from './NavItem.module.css';
 
 const NavItem =(props)=>{
     return(
-        <Link className={classes.NavItem} to={props.LinkTo} smooth>{props.title}</Link>
+        <Link className={classes.NavItem} to={props.LinkTo} smooth onClick={props.CloseBackdrop}>{props.title} </Link>
     )
 }
 
