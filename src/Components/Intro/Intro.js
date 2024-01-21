@@ -6,9 +6,11 @@ import ProfilePic from "../../assets/ProfilePic.jpeg";
 const Intro=(props)=>{
     return(
     <div className={classes.Intro}>
-        <IntroContent/>
-        <div className={classes.PhotoContainer}>
-            <img src={ProfilePic} alt="ProfilePic"/>  
+        <div className={classes.IntroBlock}>
+            <IntroContent/>
+            <div className={classes.PhotoContainer}>
+                <img src={ProfilePic} alt="ProfilePic"/>  
+            </div>
         </div>
     </div>
     )

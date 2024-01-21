@@ -17,7 +17,7 @@ const projectContent=(props)=>{
             <div className={classes.ProjectText}>{props.projectText}
             </div>
 
-        <div style={{display:"flex"}}>
+        <div className={classes.ProjectTags}>
             {projectTags.map((x)=>(<Tag text={x}/>))}
         </div>   
         {props.link}

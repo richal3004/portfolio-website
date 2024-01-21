@@ -16,3 +16,12 @@ align-items: center;
 gap: 3rem;
 align-self: stretch;
 }
+
+@media screen and (max-width:688px) {
+    .project{
+    padding: 1rem;
+    }
+    .projectContainer{
+        padding: 0;
+    }
+}

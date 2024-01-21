@@ -12,3 +12,8 @@ padding-inline-start: 1.5rem;
     text-align: left;
     line-height: 1.5rem;
 }
+@media screen and (max-width:992px) {
+    .ExpContentTitle{
+        padding-inline-start: 0rem;
+    }
+}

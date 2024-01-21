@@ -29,10 +29,6 @@ smaller screens will be between 992px to 1312px, and larger screens will be grea
 }
 
 @media screen and (max-width: 790px) {
-    .NavBar{
-        padding: 1rem 0.5rem; 
-    }
-
     .Hamburger{
         display: block;
         width:2rem;
@@ -40,6 +36,7 @@ smaller screens will be between 992px to 1312px, and larger screens will be grea
         align-self: flex-end;
         right: 0;
         z-index: 12;
+        padding: 0.25rem;
     }
    
 }

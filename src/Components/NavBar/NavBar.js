@@ -4,24 +4,24 @@ import NavRight from "./NavRight/NavRight";
 import classes from './NavBar.module.css';
 import MobileNav from "./MobileNav/MobileNav";
 import { HiMenuAlt1 } from "react-icons/hi";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Backdrop from "../../UI/Backdrop/Backdrop";
 import { Fragment } from "react";
 import {IoClose} from "react-icons/io5";
 
 const NavBar =(props)=>{
     const [ShowMobile, setShowMobile] = useState(false);
-
     function MobileOn(){
         setShowMobile(true);
         document.body.style.overflow = 'hidden';
-        console.log(ShowMobile);
+        console.log("MobileOn "+ShowMobile);
     }
     function MobileOff(){
         setShowMobile(false);
         document.body.style.overflow = 'auto';
-        console.log(ShowMobile);
+        console.log("Mobileoff "+ShowMobile);
     }
+
     return(
     <div>
         <div className={classes.NavBar}>
@@ -35,8 +35,9 @@ const NavBar =(props)=>{
           className={classes.Hamburger}
           onClick={MobileOff}
         />}
+        
+        
         {(ShowMobile) && (<Fragment><Backdrop/><MobileNav changeState={MobileOff}/></Fragment>)}
-        {/* {ShowMobile ? ():""} */}
                        
         </div>
         

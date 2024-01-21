@@ -4,6 +4,12 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+.IntroBlock{
+    display: flex;
+    padding: 0rem 2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 .p{
     margin-left: 6rem;
 }
@@ -24,4 +30,39 @@
     width: 100%;
     object-fit:cover;
     object-position: 0% 30%;
+}
+
+@media screen and (max-width: 992px) {
+    .Intro{
+        padding: 6rem 7rem;  
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .IntroBlock{
+        padding: 0rem 2rem;  
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .PhotoContainer{
+        margin-left: 2rem;       
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .Intro{
+        padding: 6rem 7rem; 
+        justify-content: center;
+        align-items:center;
+
+        /* flex-direction: column; */
+    }
+    .IntroBlock{
+        padding: 0rem 2rem; 
+        justify-content: center;
+        align-items:center;
+    }
+    .PhotoContainer{
+        margin-left: 2rem;       
+    }
+   
 }
