@@ -4,7 +4,7 @@
     align-items: flex-start;
     flex: 1 0 0;
     flex-wrap: wrap;
-    /* flex-shrink: 3 ; */
+    flex-shrink: 3 ;
 
 }
 .TitleName{
@@ -37,9 +37,4 @@
     }
 }
 
-@media screen and (max-width: 992px){
-    .IntroContent{
-        /* max-width: 30rem; */
-    }
-}
 

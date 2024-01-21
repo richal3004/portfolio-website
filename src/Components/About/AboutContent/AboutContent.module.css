@@ -1,12 +1,11 @@
 .AboutContent{
     display: flex;
-    /* max-width: 36.5rem;  */
-    /* min-width: 27.75rem; */
+    min-width: 27.75rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5rem;
+    flex: 1 0 0;
     align-self: stretch;
-    flex: 1 ;
 }
 .AboutTitle{
     color: var(--gray-900, #111827);

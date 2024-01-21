@@ -1,5 +1,6 @@
 .ProjectBlock{
     display: flex;
+    width: 56rem;
     padding: 2rem;
     flex-direction: row;
     align-items: flex-start;
@@ -27,26 +28,4 @@
 
 .even{
     flex-direction: row-reverse;
-}
-
-@media  screen and (max-width: 992px) {
-    .ProjectBlock{
-        flex-direction: column;
-        align-items: center;
-        gap:1rem;
-        width: 100%;
-    }
-    
-}
-@media screen and (max-width:688px) {
-    .ProjectBlock{
-        padding: 0.75rem;
-    }
-    .ProjectLogo{
-        width: 14rem;
-    }
-    .ProjectLogo img{
-        max-width: 100%;
-        object-fit: cover;
-    }
 }

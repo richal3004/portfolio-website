@@ -28,17 +28,5 @@ text-align: left;
     gap : 1.5rem;
 }
 
-.ProjectTags{
-    display:flex;
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width:688px) {
-    .ProjectContent{
-        padding: 2rem;
-        width:100%;
-    }
-}
-
 
 

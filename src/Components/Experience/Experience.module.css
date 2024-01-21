@@ -16,12 +16,3 @@ align-items: center;
 gap: 3rem;
 align-self: stretch;
 }
-
-@media screen and (max-width:688px) {
-    .Experience{
-        padding: 0px;
-    }
-    .ExperienceContainer{
-        padding: 0.5rem;
-    }
-}
