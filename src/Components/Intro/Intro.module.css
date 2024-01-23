@@ -10,8 +10,7 @@
 
 
 .PhotoContainer{
-    width: 17.5rem;
-    height: 20rem;
+    display: flex;
     border: none;
     box-shadow: 32px -28px #E5E7EB;
     margin-left: 6rem;
@@ -24,4 +23,18 @@
     width: 100%;
     object-fit:cover;
     object-position: 0% 30%;
+}
+@media screen and (max-width: 790px) {
+    .Intro{
+        display:flex;
+        flex-direction: column-reverse;
+        padding: 4rem 1rem;
+        
+    }
+    .PhotoContainer{
+        box-shadow: 20px -18px #E5E7EB;
+        margin-left: 3.5rem;
+        margin-right:3.5rem;
+    }
+    
 }

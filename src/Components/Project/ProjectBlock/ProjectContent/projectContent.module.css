@@ -7,10 +7,10 @@
 .ProjectContent{
     display: flex;
     flex-direction: column;
-padding: 3rem;
-align-items: flex-start;
-gap: 1.5rem;
-
+    padding: 3rem;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 100%;
 }
 
 .ProjectTitle{
@@ -26,6 +26,19 @@ text-align: left;
     text-align: left;
     line-height: 1.5rem;
     gap : 1.5rem;
+}
+
+.ProjectTags{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:790px) {
+    .ProjectContent{
+        padding: 1rem;
+    }
+    
 }
 
 

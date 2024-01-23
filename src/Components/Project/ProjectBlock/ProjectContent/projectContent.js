@@ -1,29 +1,24 @@
-import Tag from '../../../../UI/TagBar/Tag/Tag';
-import classes from './projectContent.module.css';
+import Tag from "../../../../UI/TagBar/Tag/Tag";
+import classes from "./projectContent.module.css";
 
+const projectContent = (props) => {
+  var projectTags = props.projectTags;
 
-const projectContent=(props)=>{
+  projectTags = projectTags.split(",");
 
-    var projectTags = props.projectTags;
-
-    projectTags=projectTags.split(",");
-
-
-    return(
-    
+  return (
     <div className={classes.ProjectContent}>
-        <div className={classes.ProjectTitle}>{props.projectTitle}</div>
-        
-            <div className={classes.ProjectText}>{props.projectText}
-            </div>
+      <div className={classes.ProjectTitle}>{props.projectTitle}</div>
 
-        <div style={{display:"flex"}}>
-            {projectTags.map((x)=>(<Tag text={x}/>))}
-        </div>   
-        {props.link}
+      <div className={classes.ProjectText}>{props.projectText}</div>
+      {/* style={{ display: "flex" }} */}
+      <div className={classes.ProjectTags}>
+        {projectTags.map((x, index) => (
+          <Tag text={x} key={index}/>
+        ))}
       </div>
-       
-
-    )
-}
+      {props.link}
+    </div>
+  );
+};
 export default projectContent;

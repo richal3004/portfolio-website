@@ -1,6 +1,6 @@
 .AboutContent{
     display: flex;
-    min-width: 27.75rem;
+    /* min-width: 27.75rem; */
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5rem;

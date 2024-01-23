@@ -22,28 +22,32 @@
     flex-wrap: wrap;
 }
 
-.PhotoBox{
-    display: flex;
-    min-width: 36.75rem;
-    flex-direction: column;
-    align-items: flex-start;
-    align-self: stretch;
-}
 
 
 .PhotoContainer{
-    width: 22rem;
-    height: 30rem;
+    min-width: 280px;
+    height: 320px;
     border: none;
     box-shadow: -32px 28px #E5E7EB;
+    background-image: url('../../assets/ProfilePic\(280x320\).jpeg');
+    background-position: 0 40% ;
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-right: 6rem;
     margin-left: 2rem;
-    
 }
 
-.PhotoContainer img{
-    height: 100%;
-    width: 100%;
-    object-fit:cover;
-    object-position: 0% 30%;
+
+@media (max-width:790px){
+    .About{
+        padding: 4rem 1rem;
+
+    }
+    .AboutBox{
+        padding: 0;
+    }
+    .PhotoContainer{
+        margin: 0;
+    }
+    
 }

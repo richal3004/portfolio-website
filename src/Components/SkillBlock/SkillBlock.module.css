@@ -17,9 +17,21 @@
 
 .SkillList{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-wrap: wrap;
     gap:3rem;
     align-items: center;
     align-self: stretch;
+}
+
+@media screen and (max-width:790px) {
+    .SkillBlock{
+        padding: 4rem 1rem;
+    }
+    .SkillContainer{
+        padding: 0rem;
+    }
+    .SkillList{
+        justify-content: space-evenly;
+    }
 }

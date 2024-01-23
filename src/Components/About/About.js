@@ -1,6 +1,6 @@
 import AboutContent from "./AboutContent/AboutContent";
 import classes from "./About.module.css"
-import ProfilePic from "../../assets/ProfilePic.jpeg";
+import ProfilePic from "../../assets/ProfilePic(280x320).jpeg";
 import TagBar from "../../UI/TagBar/TagBar";
 
 const About=(props)=>{
@@ -9,10 +9,8 @@ const About=(props)=>{
         <div className={classes.AboutBox}>
             <TagBar tagText={"About Me"}/>
             <div className={classes.Box}>
-                <div className={classes.PhotoBox}> 
-                    <div className={classes.PhotoContainer}>
-                        <img src={ProfilePic} alt="ProfilePic"/>  
-                    </div>
+                <div className={classes.PhotoContainer}>
+                        
                 </div>
                 <AboutContent/>
             </div>
