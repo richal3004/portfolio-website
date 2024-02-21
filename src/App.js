@@ -8,12 +8,16 @@ import Project from './Components/Project/Project';
 import Contact from './Components/Contact/Contact';
 import Footer from './UI/Footer/Footer';
 import { BrowserRouter } from 'react-router-dom';
+import PageUnderConstruction from './PageUnderConstruction.js';
+import { Fragment } from 'react';
 
 function App() {
+  let WesiteStatus= false;
   return (
     <BrowserRouter>
     <div className="App">
-      <NavBar />
+      {(WesiteStatus===false)?(<PageUnderConstruction />):
+      ( <Fragment><NavBar />
       <Intro />
       <About />
       <SkillBlock />
@@ -21,9 +25,11 @@ function App() {
       <Project/>
       <Contact/>
       <Footer/>
+      </Fragment>)}
     </div>
     </BrowserRouter>
   );
 }
+
 
 export default App;
